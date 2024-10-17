@@ -12,7 +12,7 @@ app.use(express.json());
 
 // CORS middleware
 app.use(cors({
-    origin: 'https://money-tracker--mu.vercel.app', // Allow your frontend origin
+    origin: 'https://money-tracker--mu.vercel.app/', // Allow your frontend origin
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true // Allow cookies to be sent
 }));
